@@ -1,15 +1,8 @@
 # Hello Heroku
 Simple tutorial application to get familiar with Heroku deployment of a Go Web application.
 
-- Followed tutorial: https://medium.com/devopsturkiye/deploy-golang-application-in-heroku-44f136dd3102
+- Based on this tutorial: https://medium.com/devopsturkiye/deploy-golang-application-in-heroku-44f136dd3102
 
-<!--
-TODO: Update the URL once deployed.
+- Git `main` branch deployed by Heroku from Github repo https://github.com/srackham/heroku-hello
 
-- App URL: https://hellogo-c91f300b4105.herokuapp.com/
-
-    ```sh
-    $ curl https://hellogo-c91f300b4105.herokuapp.com/
-    Hello, world!
-    ```
--->
+- Deployed application URL: https://heroku-hello-654a2c314ed2.herokuapp.com/

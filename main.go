@@ -11,10 +11,10 @@ func main() {
 	port := os.Getenv("PORT")
 
 	helloHandler := func(w http.ResponseWriter, req *http.Request) {
-		io.WriteString(w, "Hello, world!\n")
+		io.WriteString(w, "Hello Heroku!\n")
 	}
 
 	http.HandleFunc("/", helloHandler)
-	log.Println("Listing for" + port)
+	print("listening on port", port, "\n")
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
